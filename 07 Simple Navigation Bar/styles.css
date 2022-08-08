@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(179, 245, 245);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(17, 105, 105);
+}
+.logo h2{
+    color: #fff;
+    letter-spacing: 6px;
+    cursor: pointer;
+}
+.items ul a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+.items ul a:hover{
+    color: rgb(179, 245, 245);
+}
+.btn button{
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #fff;
+    color: rgb(17, 105, 105);
+}
