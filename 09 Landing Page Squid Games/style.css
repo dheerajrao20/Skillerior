@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(img/bg.png);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+.container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 80px 0 40px;
+}
+.logo img {
+  width: 140px;
+  cursor: pointer;
+}
+.items ul {
+  display: flex;
+  list-style: none;
+}
+.items ul li {
+  color: #fff;
+  margin: 0 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+.items ul li:hover {
+  color: pink;
+  font-weight: 600;
+}
+.log button {
+  padding: 10px 22px;
+  color: #fff;
+  font-size: 18px;
+  background: transparent;
+  font-family: sans-serif;
+  outline: none;
+  border: 2px solid pink;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.log button:hover {
+  background-color: pink;
+  color: #000;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+}
+.centre {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 0 0;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+}
+.title a {
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 24vw;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon img {
+  width: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.down {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.play {
+  display: flex;
+  margin-left: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.play img {
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  cursor: pointer;
+}
+.play h1 {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+.arrows {
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  margin-right: 80px;
+}
+.arrow img {
+  width: 50px;
+  cursor: pointer;
+}
+.dc {
+  display: flex;
+  color: #fff;
+  font-family: sans-serif;
+}
+.dc-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 12px;
+}
+.text h1 {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.text h1:hover {
+  color: pink;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
