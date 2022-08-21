@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #000;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px 0 20px;
+  color: #fff;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  height: 100px;
+  cursor: pointer;
+}
+.items {
+  display: flex;
+  align-items: center;
+}
+.items ul {
+  display: flex;
+  list-style: none;
+}
+.items ul li {
+  margin-right: 50px;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(to right, cyan, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.items ul li:hover {
+  background: linear-gradient(to left, cyan, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease-in-out;
+}
+.items img {
+  width: 35px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.items input {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: aliceblue;
+  margin-top: 5vh;
+}
+.title {
+  margin-left: 100px;
+}
+.title h1 {
+  font-size: 64px;
+}
+.title h2 {
+  font-weight: 400;
+}
+.poster img {
+  width: 300px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn {
+  display: flex;
+  margin-left: 100px;
+}
+.btn button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#btn-1 {
+  background-color: red;
+  color: #fff;
+}
+#btn-1:hover {
+  background-color: #fff;
+  color: #000;
+}
+#btn-2:hover {
+  background-color: red;
+  color: #fff;
+}
+.poster {
+  margin-left: 100px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(36, 25, 25);
+  border-top-right-radius: 80px;
+}
+.box {
+  padding: 10px 40px 10px 100px;
+}
+.box h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.box p {
+  letter-spacing: 2px;
+}
+.line-1 {
+  display: flex;
+  border-bottom: 1px solid #fff;
+}
+.line {
+  display: flex;
+}
+.right img {
+  margin-right: 10vw;
+}
