@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    background-image: url(img/bg.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    cursor: pointer;
+}
+.logo h1{
+    color: blue;
+}
+.items{
+    display: flex;
+    align-items: center;
+    margin-right: 5vw;
+}
+.items ul{
+    display: flex;
+    list-style: none;
+    padding: 10px 20px;
+    backdrop-filter: blur(30px);
+}
+.items ul li{
+    margin-right: 20px;
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.items ul li:hover{
+    color: #000;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 75vh;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(20px);
+    padding: 20px 0;
+}
+.heading h1{
+    font-size: 120px;
+    letter-spacing: 20px;
+}
+.heading h2{
+    font-size: 36px;
+}
+.heading h4{
+    font-size: 22px;
+    letter-spacing: 4px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    margin: 0 4vw;
+}
+.box h1{
+    margin-bottom: 16px;
+}
