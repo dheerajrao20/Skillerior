@@ -1,0 +1,61 @@
+                               /* NOTE  */
+
+                               /* Watch the complete video on youtube to see full source code */
+/*  */
+                    /* YOUTUBE CHANNEL = Boy With Codes  */
+
+
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.loader{
+    position: absolute;
+}
+.loader .dot{
+    position: absolute;
+}
+.loader .dot:nth-child(2){
+    z-index: 11;
+}
+.loader .dot:nth-child(3){
+    z-index: 12;
+}
+@keyframes dot1{
+    3%, 97%{
+        width: 160px;
+    }
+    30%, 36%{
+        width: 80px;
+    }
+    63%, 69%{
+        width: 40px;
+    }
+}
+@keyframes dot2{
+    3%, 97%{
+        width: 150px;
+    }
+    30%, 36%{
+        width: 70px;
+    }
+    63%, 69%{
+        width: 32px;
+    }
+}
+@keyframes dot3{
+    3%, 97%{
+        width: 40px;
+    }
+    30%, 36%{
+        width: 8px;
+    }
+    63%, 69%{
+        width: 16px;
+    }
+}
