@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <title>Boy With Codes | Random Quote Generator</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--FONTAWESOME CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <i class="fas fa-quote-left"></i>
+        <span class="quote" id="quote"></span>
+        <i class="fas fa-quote-right"></i>
+      </h1>
+      <p class="author" id="author"></p>
+      <hr />
+      <div class="buttons">
+        <a
+          class="twitter"
+          id="tweet"
+          href="https://twitter.com/intent/tweet?text=Greetings"
+          data-size="large"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <button class="next" onclick="getNewQuote()">Next quote</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
