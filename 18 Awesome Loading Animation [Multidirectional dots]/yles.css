@@ -1,0 +1,130 @@
+                                            /* NOTE  */
+                        /* WATCH THE FULL VIDEO ON YOUTUBE TO SEE COMPLETE SOURCE CODES                     */
+
+                               /* YOUTUBE CHANNEL = Boy With Codes  */
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.loader{
+    position: absolute;
+}
+@-webkit-keyframes loader{
+    0%{
+        transform: rotateX(30deg) rotateZ(0deg);
+    }
+    100%{
+        transform: rotateX(30deg) rotateZ(-360deg);
+    }
+}
+@keyframes loader{
+    0%{
+        transform: rotateX(30deg) rotateZ(0deg);
+    }
+    100%{
+        transform: rotateX(30deg) rotateZ(-360deg);
+    }
+}
+.dot{
+    position: absolute;
+}
+.dot:nth-child(2){
+    transform: rotateZ(15deg);
+}
+.dot:nth-child(3){
+    transform: rotateZ(0deg);
+}
+.dot:nth-child(4){
+    transform: rotateZ(-15deg);
+}
+.dot:nth-child(5){
+    transform: rotateZ(-30deg);
+}
+@-webkit-keyframes dot1{
+    0%{
+        transform: rotateZ(30deg) rotateX(10deg);
+    }
+    95%,100%{
+        transform: rotateZ(390deg) rotateX(10deg);
+    }
+}
+@keyframes dot1{
+    0%{
+        transform: rotateZ(30deg) rotateX(10deg);
+    }
+    95%,100%{
+        transform: rotateZ(390deg) rotateX(10deg);
+    }
+}
+@-webkit-keyframes dot2{
+    0%{
+        transform: rotateZ(15deg) rotateX(10deg);
+    }
+    95%,100%{
+        transform: rotateZ(375deg) rotateX(10deg);
+    }
+}
+@keyframes dot2{
+    0%{
+        transform: rotateZ(15deg) rotateX(10deg);
+    }
+    95%,100%{
+        transform: rotateZ(375deg) rotateX(10deg);
+    }
+}
+@-webkit-keyframes dot3{
+    0%{
+        transform: rotateZ(0deg) rotateX(10deg);
+    }
+    95%,100%{
+        transform: rotateZ(360deg) rotateX(10deg);
+    }
+}
+@keyframes dot3{
+    0%{
+        transform: rotateZ(0deg) rotateX(10deg);
+    }
+    95%,100%{
+        transform: rotateZ(360deg) rotateX(10deg);
+    }
+}
+@-webkit-keyframes dot4{
+    0%{
+        transform: rotateZ(-15deg) rotateX(10deg);
+    }
+    95%,100%{
+        transform: rotateZ(345deg) rotateX(10deg);
+    }
+}
+@keyframes dot4{
+    0%{
+        transform: rotateZ(-15deg) rotateX(10deg);
+    }
+    95%,100%{
+        transform: rotateZ(345deg) rotateX(10deg);
+    }
+}
+@-webkit-keyframes dot5{
+    0%{
+        transform: rotateZ(-30deg) rotateX(10deg);
+    }
+    95%,100%{
+        transform: rotateZ(330deg) rotateX(10deg);
+    }
+}
+@keyframes dot5{
+    0%{
+        transform: rotateZ(-30deg) rotateX(10deg);
+    }
+    95%,100%{
+        transform: rotateZ(330deg) rotateX(10deg);
+    }
+}
