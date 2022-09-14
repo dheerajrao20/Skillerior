@@ -1,0 +1,85 @@
+           /* WATCH THE COMPLETE VIDEO ON YOUTUBE TO SEE FULL SOURCE CODE  */
+
+                  /* YOUTUBE = BOY WITH CODES  */
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.loader{
+    position: absolute;
+}
+.square{
+    position: absolute;
+}
+.square--mini{
+    position: absolute;
+}
+.square--mini:nth-child(4n+2){
+    left: 25%;
+}
+.square--mini:nth-child(4n+3){
+    left: 50%;
+}
+.square--mini:nth-child(4n+4){
+    left: 75%;
+}
+
+.square--mini:nth-child(8){
+    top: 25%;
+}
+
+.square--mini:nth-child(12){
+    top: 50%;
+}
+
+.square--mini:nth-child(16){
+    top: 75%;
+}
+
+.square--mini:nth-child(5){
+    animation-delay: 100ms;
+}
+.square--mini:nth-child(9){
+    animation-delay: 200ms;
+}
+.square--mini:nth-child(13){
+    animation-delay: 300ms;
+}
+
+.square--mini:nth-child(14){
+    animation-delay: 400ms;
+}
+
+.square--mini:nth-child(15){
+    animation-delay: 500ms;
+}
+.square--mini:nth-child(16){
+    animation-delay: 600ms;
+}
+@keyframes squaremini{
+    0%, 100%{
+        background-color: #1e3f57;
+    }
+    12.5%, 62.5%{
+        background-color: #3c617d;
+    }
+    25%, 75%{
+        background-color: #3c617d;
+    }
+    37.5%{
+        background-color: #6bb2cd;
+    }
+    50%{
+        background-color: #6bb2cd;
+    }
+    87.5%{
+        background-color: #1e3f57;
+    }
+}
