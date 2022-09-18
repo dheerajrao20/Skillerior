@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+}
+body{
+    width: 100%;
+}
+.bottom-container, .top-container{
+    height: 35vh;
+}
+.bottom-container{
+    color: #222;
+}
+.top-container{
+    background: red;
+}
+@keyframes circlemove{
+    0%,100%{
+        clip-path: circle(13% at 85% 50%);
+    }
+    50%{
+        clip-path: circle(13% at 15% 50%);
+    }
+}
