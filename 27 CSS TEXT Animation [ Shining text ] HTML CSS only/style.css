@@ -1,0 +1,23 @@
+ /* this  is only the source code
+ watch full video on youtube to see full source code
+ 
+ YOUTUBE == BOY WITH CODES*/
+
+
+
+
+
+body{
+    display: flex;
+}
+p{
+    position: relative;
+}
+@keyframes animate{
+    0%{
+        background-position: -500%;
+    }
+    100%{
+        background-position: 500%;
+    }
+}
