@@ -1,0 +1,36 @@
+/* this  is only a source code 
+watch complete video on youtube to see full source code
+
+ YOUTUBE == BOY WITH CODES */
+
+
+
+
+
+
+
+body {
+    display: flex;
+  }
+  
+  .wavy {
+    position: relative;
+  }
+  
+  .wavy span {
+    position: relative;
+  }
+  
+  @keyframes animate {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    20% {
+      transform: translateY(-40px);
+    }
+    40% {
+      transform: translateY(0px);
+    }
+  }
+  
