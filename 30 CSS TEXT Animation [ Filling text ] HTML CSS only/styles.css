@@ -1,0 +1,43 @@
+
+ /* this is only the sourrce code templte
+  watch the complete video on youtube to see fullsource code
+  
+    YOUTUBE == BOY WITH CODES  */
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+}
+
+h2 {
+  color: #000;
+}
+
+h2::before {
+  top: 0;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+
+  70%,
+  90% {
+    width: 100%;
+  }
+}
