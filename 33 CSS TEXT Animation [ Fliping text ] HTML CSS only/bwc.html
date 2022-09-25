@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+        <div class="wave">
+          <span style="--i:1">B</span>
+          <span style="--i:2">O</span>
+          <span style="--i:3">Y</span>
+          <span style="--i:4">W</span>
+          <span style="--i:5">I</span>
+          <span style="--i:6">T</span>
+          <span style="--i:7">H</span>
+          <span style="--i:8">C</span>
+          <span style="--i:9">O</span>
+          <span style="--i:10">D</span>
+          <span style="--i:11">E</span>
+          <span style="--i:12">S</span>
+         </div>
+       
+    
+</body>
+</html>
+
+---------------------------------------css-------------------------
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .wave {
+    position: relative;
+  }
+  .wave span {
+      font-family: sans-serif;
+    position: relative;
+    display: inline-block;
+    font-size: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i));
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg);
+      color:blue; 
+    }
+  }
