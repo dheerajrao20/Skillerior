@@ -1,0 +1,44 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background: #000;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.container span{
+  display: block;
+}
+.text1{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  background: #000;
+  position: relative;
+  animation: text 4s 1;
+}
+.text2{
+  font-size: 30px;
+  color: red;
+}
+@keyframes text{
+  0%{
+    color: #000;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+}
