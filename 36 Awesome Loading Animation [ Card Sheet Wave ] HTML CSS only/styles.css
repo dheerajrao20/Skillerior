@@ -1,0 +1,75 @@
+          /* NOTE 
+          THIS IS ONLY THE SOURCE CODE TEMPLETE THAT YOU CAN USE WHILE PRACTICING
+          
+          WATCH FULL VIDEO ON YOUTUBE TO SEE COMPLETE SOURCE CODE
+          
+             YOUTUBE == BOY WITH CODES                                */
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.loader{
+    position: absolute;
+}
+.pitch{
+    position: absolute;
+}
+.pitch::after{
+    content: "";
+}
+.circle{
+    position: absolute;
+}
+.player{
+    position: absolute;
+}
+.player:nth-child(1){
+    transform: translateX(-40px) translateY(40px);
+}
+.player:nth-child(2){
+    transform: translateX(-16px) translateY(50px);
+}
+.player:nth-child(3){
+    transform: translateX(16px) translateY(50px);
+}
+.player:nth-child(4){
+    transform: translateX(40px) translateY(40px);
+}
+.player:nth-child(5){
+    transform: translateX(-38px) translateY(-14px);
+}
+.player:nth-child(6){
+    transform: translateX(-18px) translateY(10px);
+    animation-name: player6;
+}
+.player:nth-child(7){
+    transform: translateX(18px) translateY(10px);
+    animation-name: player7;
+}
+.player:nth-child(8){
+    transform: translateX(38px) translateY(-14px);
+    animation-name: player8;
+}
+.player:nth-child(9){
+    transform: translateX(-14px) translateY(-56px);
+}
+/* .player:nth-child(10){
+    transform: translateX(14px) translateY(-56px);
+    animation-name: player10;
+} */
+@keyframes player1{
+    0%, 20%, 25%, 70%, 75%, 100%{
+        transform: translateX(-40px) translateY(40px);
+    }
+    45%, 50%{
+        transform: translateX(-28px) translateY(50px);
+    }
+}
+    /* TO BE CONTINUED */
