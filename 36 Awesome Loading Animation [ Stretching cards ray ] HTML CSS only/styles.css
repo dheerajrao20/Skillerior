@@ -1,0 +1,76 @@
+                  /* NOTE  */
+                             /* WATCH THE COMPLETE VIDEO ON YOUTUBE TO SEE FULL SOURCE CODE  */
+                                
+              
+                 /* YOUTUBE = BOY WITH CODES  */
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.loader{
+    position: absolute;
+}
+@keyframes loader{
+    0%{
+        transform: rotateZ(0);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+.dot__wrap{
+    position: absolute;
+}
+.dot__wrap:nth-child(2){
+    animation-name: dotwrap2;
+}
+.dot__wrap:nth-child(3){
+    animation-name: dotwrap3;
+}
+.dot__wrap:nth-child(4){
+    animation-name: dotwrap4;
+}
+.dot__wrap:nth-child(5){
+    animation-name: dotwrap5;
+}
+.dot__wrap:nth-child(6){
+    animation-name: dotwrap6;
+}
+.dot__wrap:nth-child(7){
+    animation-name: dotwrap7;
+}
+@keyframes dotwrap1{
+    0%, 100%{
+        transform: translateX(0) translateZ(0) rotateY(0);
+    }
+    50%{
+        transform: translateX(-75px) translateZ(-75px) rotateY(30deg) rotateX(-60deg) rotateZ(-45deg);
+    }
+}
+@keyframes dotwrap2{
+    0%, 100%{
+        transform: translateX(0) translateZ(0) rotateY(0);
+    }
+    50%{
+        transform: translateX(-50px) translateZ(-50px) rotateY(30deg) rotateX(-40deg) rotateZ(-30deg);
+    }
+}
+.dot{
+    position: absolute;
+}
+@keyframes dot{
+    0%, 100%{
+        background-color: #1e3f57;
+    }
+    50%{
+        background-color: #6bb2cd;
+    }
+}
