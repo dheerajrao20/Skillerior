@@ -1,0 +1,137 @@
+                     /* NOTE  */
+
+                       /* WATCH THE COMPLETE VIDEO ON YOUTUBE TO SEE FULL SOURCE CODE  */
+
+                              /* YOUTUBE = BOY WITH CODES  */
+
+
+
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.loader{
+    position: absolute;
+}@keyframes loader{
+    0%{
+        transform: rotateZ(0);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+.dot{
+    position: absolute;
+}
+.dot:nth-child(1){
+    animation-name: dot1;
+}
+.dot:nth-child(2){
+    animation-name: dot2;
+}
+.dot:nth-child(3){
+    animation-name: dot3;
+}
+.dot:nth-child(4){
+    animation-name: dot4;
+}
+.dot:nth-child(5){
+    animation-name: dot5;
+}
+.dot:nth-child(6){
+    animation-name: dot6;
+}
+.dot:nth-child(7){
+    animation-name: dot7;
+}
+.dot:nth-child(8){
+    animation-name: dot8;
+}
+@keyframes dot1{
+    0%{
+        opacity: 0;
+    }45%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+}
+@keyframes dot2{
+    0%{
+        opacity: 0;
+    }45%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+}
+@keyframes dot3{
+    0%{
+        opacity: 0;
+    }45%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+}
+@keyframes dot4{
+    0%{
+        opacity: 0;
+    }45%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+}
+@keyframes dot5{
+    0%{
+        opacity: 0;
+    }45%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+}
+@keyframes dot6{
+    0%{
+        opacity: 0;
+    }45%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+}
+@keyframes dot7{
+    0%{
+        opacity: 0;
+    }45%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+}
+@keyframes dot8{
+    0%{
+        opacity: 0;
+    }45%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+}
