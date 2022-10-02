@@ -1,0 +1,67 @@
+
+          /* NOTE  */
+              /* WATCH THE COMPLETE VIDEON ON YOUTUBE TO SEE FULL SOURCE CODE  */
+
+                         
+
+                          /* YOUTUBE = BOY WITH CODES  */
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    text-align: center;
+  }
+  .loader {
+    position: absolute;
+  }
+  .dot {
+    position: absolute;
+  }
+  .dot:nth-child(2) {
+    width: 140px;
+  }
+  .dot:nth-child(3) {
+    width: 160px;
+  }
+  @keyframes dot1 {
+    0% {
+      border-color: #1e3f57;
+    }
+    50% {
+      border-color: #1e574f;
+    }
+    100% {
+      border-color: #1e3f57;
+    }
+  }
+  @keyframes dot2 {
+    0% {
+      border-color: #447891;
+    }
+    50% {
+      border-color: #449180;
+    }
+    100% {
+      border-color: #447891;
+    }
+  }
+  @keyframes dot3 {
+    0% {
+      border-color: #6bb2cd;
+    }
+    50% {
+      border-color: #6bcdb2;
+    }
+    100% {
+      border-color: #6bb2cd;
+    }
+  }
