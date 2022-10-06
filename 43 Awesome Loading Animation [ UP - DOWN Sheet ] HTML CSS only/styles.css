@@ -1,0 +1,97 @@
+
+         /* NOTE  */
+
+
+         /* THIS IS ONLY THE TEMPLETE OF SOURCE CODE  */
+         /* WATCH THE VIDEO ON YOUTUBE TO SEE THE FULL SOURCE CODE  */
+
+                                 /* YOUTUBE = BOY WITH CODES  */
+
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.loader{
+    position: absolute;
+}
+.cubes{
+    position: absolute;
+}
+.cube{
+    position: absolute;
+}
+@keyframes cube{
+    0%{
+        opacity: 0;
+   
+    }
+    40%, 60%{
+        opacity: 1;
+ 
+    }
+    100%{
+        opacity: 0;
+
+    }
+}
+.side{
+    position: absolute;
+}
+.side:nth-child(1){
+    background-color: #1e3f57;
+}
+.side:nth-child(2){
+    background-color: #6bb2cd;
+}
+.side:nth-child(3){
+    background-color: #6bb2cd;
+}
+.side:nth-child(4){
+    background-color: #3c617d;
+}
+.side:nth-child(5){
+    background-color: #3c617d;
+}
+.side:nth-child(6){
+    background-color: #1e3f57;
+}
+.cube:nth-child(8n+1){
+    left: 20px;
+}
+.cube:nth-child(8n+2){
+    left: 40px;
+}
+.cube:nth-child(8n+3){
+    left: 60px;
+}
+.cube:nth-child(8n+4){
+    left: 80px;
+}
+.cube:nth-child(8n+5){
+    left: 100px;
+}
+.cube:nth-child(8n+6){
+    left: 120px;
+}
+.cube:nth-child(8n+7){
+    left: 140px;
+}
+.cube:nth-child(8),
+.cube:nth-child(9),
+.cube:nth-child(10),
+.cube:nth-child(11),
+.cube:nth-child(12),
+.cube:nth-child(13),
+.cube:nth-child(14),
+.cube:nth-child(15){
+    top: 20px;
+}
+/* ----------------------  */
