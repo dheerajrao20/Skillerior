@@ -1,0 +1,74 @@
+         /* NOTE  */
+           /* THIS IS ONLY THE SOURCE CODE TEMPLETE  */
+              /* WATCH THE COMPLETE VIDEO ON YOUTUBE TO SEE FULL SOURCE CODE  */
+
+                       /* YOUTUBE = BOY WITH CODES  */
+
+
+
+
+
+
+
+
+* {
+            box-sizing: border-box;
+  }
+  body {
+    text-align: center;
+  }
+  .loader {
+    position: absolute;
+  }
+  .dot {
+    position: absolute;
+  }
+  
+  .dot:nth-child(1)  { transform: rotateZ(0deg)  translateY(-50px); }
+  .dot:nth-child(2)  { transform: rotateZ(10deg)  translateY(-50px); }
+  .dot:nth-child(3)  { transform: rotateZ(20deg)  translateY(-50px); }
+  .dot:nth-child(4)  { transform: rotateZ(30deg)  translateY(-50px); }
+  .dot:nth-child(5)  { transform: rotateZ(40deg)  translateY(-50px); }
+  .dot:nth-child(6)  { transform: rotateZ(50deg)  translateY(-50px); }
+
+  .dot:nth-child(14) { transform: rotateZ(130deg) translateY(-50px); }
+  .dot:nth-child(15) { transform: rotateZ(140deg) translateY(-50px); }
+  .dot:nth-child(16) { transform: rotateZ(150deg) translateY(-50px); }
+  .dot:nth-child(17) { transform: rotateZ(160deg) translateY(-50px); }
+
+  .dot:nth-child(32) { transform: rotateZ(310deg) translateY(-50px); }
+  .dot:nth-child(33) { transform: rotateZ(320deg) translateY(-50px); }
+  .dot:nth-child(34) { transform: rotateZ(330deg) translateY(-50px); }
+  .dot:nth-child(35) { transform: rotateZ(340deg) translateY(-50px); }
+  .dot:nth-child(36) { transform: rotateZ(350deg) translateY(-50px); }
+  
+  .dot__inner {
+    position: absolute;
+  }
+  
+  @keyframes dotinner {
+    0%, 100% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+  }
+  
+  .dot:nth-child(2) .dot__inner { animation-delay: 50ms; }
+  .dot:nth-child(3) .dot__inner { animation-delay: 100ms; }
+  .dot:nth-child(4) .dot__inner { animation-delay: 150ms; }
+ 
+  .dot:nth-child(9) .dot__inner { animation-delay: 400ms; }
+  .dot:nth-child(10) .dot__inner { animation-delay: 450ms; }
+  .dot:nth-child(11) .dot__inner { animation-delay: 500ms; }
+  .dot:nth-child(12) .dot__inner { animation-delay: 550ms; }
+  .dot:nth-child(13) .dot__inner { animation-delay: 600ms; }
+
+  .dot:nth-child(30) .dot__inner { animation-delay: 1450ms; }
+  .dot:nth-child(31) .dot__inner { animation-delay: 1500ms; }
+  .dot:nth-child(32) .dot__inner { animation-delay: 1550ms; }
+  .dot:nth-child(33) .dot__inner { animation-delay: 1600ms; }
+  .dot:nth-child(34) .dot__inner { animation-delay: 1650ms; }
+  .dot:nth-child(35) .dot__inner { animation-delay: 1700ms; }
+  .dot:nth-child(36) .dot__inner { animation-delay: 1750ms; }
