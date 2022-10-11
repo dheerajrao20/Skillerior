@@ -1,0 +1,93 @@
+
+ /* NOTE  */
+    /* THIS IN ONLY THE SOURCE CODE TEMPLETE  */
+         /* WATCH THE FULL VIDEO ON YOUTUBE TO SEE COMPLETE SOURCE CODE  */
+
+                         /* YOUTUBE = BOY WITH CODES  */
+
+
+
+
+
+
+
+*{
+
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+
+}
+.loader{
+    position: absolute;
+
+}
+.loader::after{
+    content: "";
+    position: absolute;
+
+}
+.spec{
+    position: absolute;
+
+}
+.shadow{
+    position: absolute;
+
+}
+.dot{
+    position: absolute;
+
+}
+.dot:nth-child(1){
+    margin-left: -80px;
+
+}
+.dot:nth-child(2){
+    margin-left: -63px;
+
+}
+.dot:nth-child(3){
+    margin-left: -50px;
+    bottom: 10px;
+    animation-name: dot3;
+    animation-delay: 250ms;
+}
+.dot:nth-child(4){
+    margin-left: -27px;
+    bottom: 2px;
+    animation-name: dot4;
+    animation-delay: 1500ms;
+}
+.dot:nth-child(5){
+    margin-left: -10px;
+}
+.dot:nth-child(6){
+    margin-left: 8px;
+
+}
+.dot:nth-child(7){
+    margin-left: 30px;
+
+}
+.dot:nth-child(8){
+    margin-left: 42px;
+
+}
+.dot:nth-child(9){
+    margin-left: 60px;
+
+}
+@keyframes dot1{
+    0%{
+        transform: translateY(0) scale(0.1);
+    }
+    50%{
+        transform: translateY(-60px) scale(0.3);
+    }
+    100%{
+        opacity: 0;
+    }
+}
+/* ------------------- to be continue ------------------ */
