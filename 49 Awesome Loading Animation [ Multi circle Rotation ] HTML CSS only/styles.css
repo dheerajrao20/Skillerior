@@ -1,0 +1,81 @@
+ /* NOTE  */
+   /* THIS IS ONLY THE SOUCRCE CODE TEMPLETE  */
+     /* WATCH THE FULL VIDEO ON YOUTUBE TO SEE COMPLETE SOURCE CODE  */
+
+             /* YOUTUBE = BOY WITH CODES  */
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+.loader {
+    position: absolute;
+}
+.dots {
+    position: absolute;
+}
+  
+.dots:nth-child(2) { transform: rotate(36deg) translateY(-100px); }
+.dots:nth-child(3) { transform: rotate(72deg) translateY(-100px); }
+.dots:nth-child(4) { transform: rotate(108deg) translateY(-100px); }
+.dots:nth-child(5) { transform: rotate(144deg) translateY(-100px); }
+.dots:nth-child(6) { transform: rotate(180deg) translateY(-100px); }
+.dots:nth-child(7) { transform: rotate(216deg) translateY(-100px); }
+.dots:nth-child(8) { transform: rotate(252deg) translateY(-100px); }
+.dots:nth-child(9) { transform: rotate(288deg) translateY(-100px); }
+.dots:nth-child(10) { transform: rotate(324deg) translateY(-100px); }
+  
+@keyframes dots {
+    0%, 10%, 50%, 65%, 100% {
+        border-color: transparent;
+    }
+    5% {
+        border-color: rgba(30, 63, 87, 0.2);
+    }
+    55% {
+        border-color: rgba(30, 63, 87, 0.3);
+    }
+}
+  
+.dot {
+    position: absolute;
+}
+  
+.dot:nth-child(2) {
+    transform: translateX(50px);
+    animation-name: dot2;
+}
+  
+.dots:nth-child(2), .dots:nth-child(2) .dot { animation-delay: 300ms; }
+.dots:nth-child(3), .dots:nth-child(3) .dot { animation-delay: 600ms; }
+.dots:nth-child(4), .dots:nth-child(4) .dot { animation-delay: 900ms; }
+.dots:nth-child(5), .dots:nth-child(5) .dot { animation-delay: 1200ms; }
+.dots:nth-child(6), .dots:nth-child(6) .dot { animation-delay: 1500ms; }
+.dots:nth-child(7), .dots:nth-child(7) .dot { animation-delay: 1800ms; }
+.dots:nth-child(8), .dots:nth-child(8) .dot { animation-delay: 2100ms; }
+.dots:nth-child(9), .dots:nth-child(9) .dot { animation-delay: 2400ms; }
+.dots:nth-child(10), .dots:nth-child(10) .dot { animation-delay: 2700ms; }
+  
+
+@keyframes dot2 {
+    0% {
+        transform: rotate(0) translateX(50px);
+        background-color: #1e3f57;
+    }
+    10%, 50% {
+        background-color: #6bb2cd;
+    }
+    60% {
+
+        background-color: #1e3f57;
+    } 
+}
+
