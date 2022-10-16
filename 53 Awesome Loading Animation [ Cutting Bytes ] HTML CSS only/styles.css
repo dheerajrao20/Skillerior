@@ -1,0 +1,64 @@
+/* NOTE  */
+  /* THIS IS ONLY THE SOURCE CODE TEMPLETE  */
+     /* WATCH THE FULL VIDEO ON YOUTUBE TO SEE COMPLETE SOURCE CODE  */
+
+               /* YOUTUBE = BOY WITH CODES  */
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.loader{
+    position: absolute;
+}
+.square{
+    position: absolute;
+}
+.square:nth-child(1){
+    animation-delay: 100ms;
+}
+.square:nth-child(2){
+    top: 0;
+}
+.square:nth-child(3){
+    top: 0;
+}
+.square:nth-child(4){
+    top: 33.33333%;
+}
+.square:nth-child(5){
+    top: 33.33333%;
+}
+.square:nth-child(6){
+    top: 33.33333%;
+}
+.square:nth-child(7){
+    top: 66.66666%;
+}
+.square:nth-child(8){
+    top: 66.66666%;
+}
+.square:nth-child(9){
+    top: 66.66666%;
+}
+@keyframes square{
+    0%, 60%, 100%{
+        transform: translateZ(0);
+    }
+    5%{
+        transform: translateZ(150px) translateY(-10px) rotateZ(-45deg) rotateX(-90deg);
+    }
+    10%, 50%{
+        transform: translateZ(50px) translateY(-20px) rotateZ(-90deg) rotateX(-180deg);
+    }
+    55%{
+        transform: translateZ(150px) translateY(10px) rotateZ(-45deg) rotateX(-90deg);
+    }
+}
