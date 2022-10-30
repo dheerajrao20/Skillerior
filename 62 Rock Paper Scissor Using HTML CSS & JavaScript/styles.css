@@ -1,0 +1,57 @@
+body {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  background: black;
+  color: lime;
+  margin: 100px 0;
+}
+p {
+  color: cyan;
+}
+strong {
+  text-decoration: underline;
+  color: lime;
+}
+button {
+  background: lime;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bold;
+  border-radius: 10px;
+}
+button:hover {
+  background: black;
+  color: lime;
+  border: 2px solid lime;
+}
+.scoreboard {
+  width: 300px;
+  margin: auto;
+  border: 2px solid cyan;
+  border-radius: 12px;
+}
+.scoreboard h2 {
+  border-bottom: 2px solid lime;
+  margin: 0;
+  padding: 10px;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th,
+.scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 50px;
+  padding: 0 20px;
+}
+#status {
+  margin-top: 20px;
+}
